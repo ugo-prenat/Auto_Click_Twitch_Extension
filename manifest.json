@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Twitch channel points auto clicker",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.twitch.tv/*"
+            ],
+            "js": ["ClickLoop.js", "Style.js", "CountDown.js"]
+        }
+    ]
+}
