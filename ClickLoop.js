@@ -26,8 +26,8 @@ window.addEventListener('load', () => {
     // Click loop
     setInterval(() => {
         let container = document.querySelector('.autoClickCountDownContainer')
-        let chatInputBtn = document.querySelector('.chat-input .chat-input__buttons-container .tw-align-content-center')
-        let giftBox = document.querySelector('.community-points-summary .tw-button--success')
+        let chatInputBtn = document.querySelector('.chat-input .chat-input__buttons-container .kMdGHS')
+        let giftBox = document.querySelector('.chat-input__buttons-container .bnsqjT .ScCoreButton-sc-1qn4ixc-0')
         let nbClickParagraph = document.querySelector('.autoClickNbClickParagraph')
         let lastClickParagraph = document.querySelector('.autoClickLastClickParagraph')
 
@@ -40,7 +40,7 @@ window.addEventListener('load', () => {
         }
 
         if(!container && chatInputBtn) {
-            chatInputBtn.insertAdjacentHTML('afterbegin', `
+            chatInputBtn.insertAdjacentHTML('beforebegin', `
                 <div class="autoClickCountDownContainer">
                     <p class="autoClickCountDown"></p>
                     <div class="autoClickInfosContainer">

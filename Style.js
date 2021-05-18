@@ -15,7 +15,7 @@ function setStyle() {
     })
 
     // Count down container style
-    countDownContainer.style.marginRight = '-5px'
+    countDownContainer.style.marginRight = '-25px'
     countDownContainer.style.height = '30px'
     countDownContainer.style.overflow = 'hidden'
 
