@@ -40,7 +40,7 @@ window.addEventListener('load', () => {
         }
 
         if(!container && chatInputBtn) {
-            chatInputBtn.insertAdjacentHTML('beforebegin', `
+            chatInputBtn.insertAdjacentHTML('afterbegin', `
                 <div class="autoClickCountDownContainer">
                     <p class="autoClickCountDown"></p>
                     <div class="autoClickInfosContainer">
