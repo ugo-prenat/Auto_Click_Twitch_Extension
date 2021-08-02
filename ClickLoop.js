@@ -21,23 +21,16 @@ window.addEventListener('load', () => {
     let nbClick = 0
     streamUrl = window.location.href
 
-    console.log('Auto click activated')
+    //console.log('Auto click activated')
 
     // Click loop
     setInterval(() => {
         let container = document.querySelector('.autoClickCountDownContainer')
-        let chatInputBtn = document.querySelector('.chat-input .chat-input__buttons-container .kMdGHS')
-        let giftBox = document.querySelector('.chat-input__buttons-container .bnsqjT .ScCoreButton-sc-1qn4ixc-0')
+        let chatInputBtn = document.querySelector('.chat-input .chat-input__buttons-container .khCgBx')
+        //let giftBox = document.querySelector('.chat-input__buttons-container .bnsqjT .ScCoreButton-sc-1qn4ixc-0')
+        let giftBox = document.querySelector("button[aria-label='Claim Bonus']")
         let nbClickParagraph = document.querySelector('.autoClickNbClickParagraph')
         let lastClickParagraph = document.querySelector('.autoClickLastClickParagraph')
-
-        if (giftBox) {
-            giftBox.click()
-            nbClick++
-            nbClickParagraph.innerHTML = `${nbClick} click${nbClick > 1 ? 's' : ''}`;
-            lastClickParagraph.innerHTML = `Last click at ${getTime()}`
-            countDownFunction(15, 0)
-        }
 
         if(!container && chatInputBtn) {
             chatInputBtn.insertAdjacentHTML('afterbegin', `
@@ -50,6 +43,14 @@ window.addEventListener('load', () => {
                 </div>
             `)
             setStyle()
+        }
+
+        if (giftBox) {
+            giftBox.click()
+            nbClick++
+            nbClickParagraph.innerHTML = `${nbClick} click${nbClick > 1 ? 's' : ''}`;
+            lastClickParagraph.innerHTML = `Last click at ${getTime()}`
+            countDownFunction(15, 0)
         }
 
         // Case where user watches a new stream
