@@ -1,5 +1,5 @@
 <div align='center'>
-  <img src='https://lh3.googleusercontent.com/P02FNm2ENT4ETkPu_Y88D2YmpmBypgzlIoDjCD_DBFxI0QsxIqBMNp66b646YY7v4Ozv8hnF0iXHP-ZaJNwiHf4M=w128-h128-e365-rj-sc0x00ffffff' />
+  <img src='https://lh3.googleusercontent.com/t2noWw35Ut8g1vWaftxKQfDf66TjDUhATB7C3S9UgHNoA_95CKfVxnDBl2Fdlba511BaQcYhwTpqxfY_LAqEaqdkuAg=w128-h128-e365-rj-sc0x00ffffff' />
 </div> 
 
 <h1 align='center'>Auto Click Twitch Extension</h1>
