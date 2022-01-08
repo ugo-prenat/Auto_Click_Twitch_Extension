@@ -14,4 +14,6 @@ Récupération automatique des cadeaux Twitch
 
 <br>
 
+## Installer l'extension
+
 👉 [shorturl.at/vyN56](https://shorturl.at/vyN56)
