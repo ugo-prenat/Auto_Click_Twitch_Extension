@@ -1,3 +1,7 @@
+<div align='center'>
+  <img src='https://lh3.googleusercontent.com/P02FNm2ENT4ETkPu_Y88D2YmpmBypgzlIoDjCD_DBFxI0QsxIqBMNp66b646YY7v4Ozv8hnF0iXHP-ZaJNwiHf4M=w128-h128-e365-rj-sc0x00ffffff' />
+</div> 
+
 <h1 align='center'>Auto Click Twitch Extension</h1>
 
 Récupération automatique des cadeaux Twitch
