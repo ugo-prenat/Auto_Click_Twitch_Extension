@@ -9,7 +9,7 @@ Récupération automatique des cadeaux Twitch
 <br>
 
 <div align='center'>
-  <img src='https://im3.ezgif.com/tmp/ezgif-3-49f22adc4d.gif' />
+  <img src='https://github.com/ugo-prenat/cloud/blob/main/twitch-extension/auto-click-twitch-01.gif?raw=true' />
 </div>
 
 <br>
