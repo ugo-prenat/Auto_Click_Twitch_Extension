@@ -12,4 +12,4 @@ Récupération automatique des cadeaux Twitch
 
 <br>
 
-👉 [shorturl.at/vyN56](shorturl.at/vyN56)
+👉 [shorturl.at/vyN56](https://shorturl.at/vyN56)
