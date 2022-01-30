@@ -9,7 +9,9 @@ Récupération automatique des cadeaux Twitch
 <br>
 
 <div align='center'>
-  <img src='https://github.com/ugo-prenat/cloud/blob/main/twitch-extension/auto-click-twitch-01.gif?raw=true' />
+
+  ![auto-click-twitch-01](https://user-images.githubusercontent.com/53117589/149380958-143f77d9-9436-41ea-b3c1-42357aaa3702.gif)
+  
 </div>
 
 <br>
