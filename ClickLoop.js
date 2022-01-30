@@ -27,7 +27,7 @@ window.addEventListener('load', () => {
     setInterval(() => {
         let container = document.querySelector('.autoClickCountDownContainer')
         let chatInputBtn = document.querySelector('.chat-input .chat-input__buttons-container .hOHSTE')
-        let giftBox = document.querySelector("button[aria-label='Claim Bonus']")
+        let giftBox = document.querySelector("div[data-test-selector=\"community-points-summary\"] .GTGMR button")
         let nbClickParagraph = document.querySelector('.autoClickNbClickParagraph')
         let lastClickParagraph = document.querySelector('.autoClickLastClickParagraph')
 
